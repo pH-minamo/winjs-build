@@ -1,0 +1,28 @@
+{
+  "name": "winjs",
+  "title": "WinJS Custom Build",
+  "description": "WinJS Custom Build",
+  "version": "3.0.2",
+  "main": "WinJS.js",
+  "homepage": "http://try.buildwinjs.com/",
+  "author": {
+    "name": "Microsoft Open Technologies, Inc. and other contributors",
+    "url": "https://github.com/winjs/winjs/graphs/contributors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winjs/winjs"
+  },
+  "licenses": [
+    {
+      "type": "Apache2",
+      "url": "https://github.com/winjs/winjs/blob/master/License.txt"
+    }
+  ],
+  "bugs": "https://github.com/winjs/winjs/issues",
+  "devDependencies": {
+  },
+  "browserify": {
+    "transform": "deamdify"
+  }
+}
